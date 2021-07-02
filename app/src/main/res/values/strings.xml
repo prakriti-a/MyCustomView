@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Custom View</string>
+    <string name="my_text">Here!</string>
+    <string name="clicked">View clicked!</string>
+</resources>

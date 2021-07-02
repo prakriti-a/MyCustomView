@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- add custom view to main layout once defined
+        add the defined attributes in styleable xml as app: attributes here-->
+    <com.prakriti.mycustomview.MyCustomView
+        android:id="@+id/customView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:viewColor="@color/teal_200"
+        app:textColor="@color/black"
+        app:viewText="@string/my_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
